@@ -43,12 +43,37 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20.x'
+        cache: 'npm'
+        cache-dependency-path: '**/package-lock.json'
+
+    - name: Cache Next.js build
+      uses: actions/cache@v3
+      with:
+        path: |
+          .next/cache
+          node_modules/.cache
+        key: ${{ runner.os }}-nextjs-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-nextjs-
+
     - name: Install Dependencies
-      run: npm ci
-      
+      run: npm ci --prefer-offline
+      env:
+        NODE_ENV: development
+
     - name: Build
       run: npm run build
-      
+      env:
+        NODE_ENV: production
+        NEXT_TELEMETRY_DISABLED: 1
+
+    - name: Run Tests
+      run: npm test
+
     - name: Deploy to Vercel
       uses: amondnet/vercel-action@v25
       with:
@@ -56,3 +81,7 @@ jobs:
         vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
         vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
         vercel-args: '--prod'
+        working-directory: ./
+      env:
+        NODE_ENV: production
+        NEXT_PUBLIC_VERCEL_ENV: production
