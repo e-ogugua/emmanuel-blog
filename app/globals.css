@@ -1,0 +1,153 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Color tokens for the design system */
+  --background: #ffffff; /* Clean white background */
+  --foreground: #475569; /* Primary text color - softer than pure black */
+  --card: #f1f5f9; /* Light gray for cards */
+  --card-foreground: #374151; /* Text on cards for readability */
+  --popover: #ffffff; /* Background for popovers */
+  --popover-foreground: #475569; /* Text for popovers */
+  --primary: #059669; /* Emerald for call-to-action buttons */
+  --primary-foreground: #ffffff; /* Text color for primary buttons */
+  --secondary: #d97706; /* Gold for accent elements */
+  --secondary-foreground: #ffffff; /* Text color for accent elements */
+  --muted: #f1f5f9; /* Muted background */
+  --muted-foreground: #374151; /* Text color for muted areas */
+  --accent: #d97706; /* Gold for links and hover states */
+  --accent-foreground: #ffffff; /* Text color for accent elements */
+  --destructive: #dc2626; /* Red for error states */
+  --destructive-foreground: #ffffff; /* Text color for destructive elements */
+  --border: #e5e7eb; /* Light gray for borders */
+  --input: #ffffff; /* Background for input fields */
+  --ring: #059669; /* Ring color for focused elements */
+  --chart-1: #10b981; /* Chart color 1 */
+  --chart-2: #d97706; /* Chart color 2 */
+  --chart-3: #dc2626; /* Chart color 3 */
+  --chart-4: #059669; /* Chart color 4 */
+  --chart-5: #f59e0b; /* Chart color 5 */
+  --radius: 0.5rem; /* Corner rounding for cards and buttons */
+  --sidebar: #f1f5f9; /* Sidebar background color */
+  --sidebar-foreground: #374151; /* Text for sidebar */
+  --sidebar-primary: #059669; /* Primary accent for sidebar */
+  --sidebar-primary-foreground: #ffffff; /* Text color for primary sidebar elements */
+  --sidebar-accent: #d97706; /* Accent color for sidebar elements */
+  --sidebar-accent-foreground: #ffffff; /* Text color for sidebar accents */
+  --sidebar-border: #e5e7eb; /* Border color for sidebar */
+  --sidebar-ring: #10b981; /* Ring color for sidebar focused elements */
+}
+
+.dark {
+  /* Updated dark mode tokens to maintain design consistency */
+  --background: #0f172a; /* Dark background */
+  --foreground: #f1f5f9; /* Light text */
+  --card: #1e293b; /* Darker card background */
+  --card-foreground: #f1f5f9; /* Light card text */
+  --popover: #0f172a;
+  --popover-foreground: #f1f5f9;
+  --primary: #10b981; /* Lighter emerald in dark mode */
+  --primary-foreground: #0f172a; /* Dark text on light primary */
+  --secondary: #f59e0b; /* Lighter gold in dark */
+  --secondary-foreground: #0f172a;
+  --muted: #1e293b;
+  --muted-foreground: #94a3b8;
+  --accent: #f59e0b; /* Lighter gold for dark mode */
+  --accent-foreground: #0f172a;
+  --destructive: #ef4444;
+  --destructive-foreground: #f1f5f9;
+  --border: #334155;
+  --input: #1e293b;
+  --ring: #10b981;
+  --chart-1: #10b981;
+  --chart-2: #f59e0b;
+  --chart-3: #ef4444;
+  --chart-4: #10b981;
+  --chart-5: #f59e0b;
+  --sidebar: #0f172a;
+  --sidebar-foreground: #f1f5f9;
+  --sidebar-primary: #1e293b;
+  --sidebar-primary-foreground: #f1f5f9;
+  --sidebar-accent: #f59e0b;
+  --sidebar-accent-foreground: #0f172a;
+  --sidebar-border: #334155;
+  --sidebar-ring: #10b981;
+}
+
+@theme inline {
+  /* Updated font variables to use Inter and Lora */
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-lora);
+  --font-mono: var(--font-geist-mono);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  /* Typography styles for clean, readable content */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif font-bold; /* Using Lora for warm, storytelling headers */
+  }
+  p,
+  li,
+  span {
+    @apply font-sans leading-relaxed; /* Using Inter for clean, readable body text */
+  }
+  article {
+    @apply font-sans leading-relaxed;
+  }
+  /* Added special styling for storytelling elements */
+  .story-text {
+    @apply font-serif text-lg leading-relaxed;
+  }
+  .warm-accent {
+    @apply text-accent font-medium;
+  }
+}

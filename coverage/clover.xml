@@ -1,0 +1,1139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1757671523235" clover="3.2.0">
+  <project timestamp="1757671523235" name="All files">
+    <metrics statements="884" coveredstatements="56" conditionals="390" coveredconditionals="13" methods="364" coveredmethods="13" elements="1638" coveredelements="82" complexity="0" loc="884" ncloc="884" packages="9" files="74" classes="74"/>
+    <package name="app">
+      <metrics statements="58" coveredstatements="13" conditionals="12" coveredconditionals="4" methods="15" coveredmethods="1"/>
+      <file name="error.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/error.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="global-error.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/global-error.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="layout.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/layout.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+      </file>
+      <file name="loading.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/loading.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+      <file name="manifest.ts" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/manifest.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="not-found.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/not-found.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/page.tsx">
+        <metrics statements="15" coveredstatements="13" conditionals="12" coveredconditionals="4" methods="3" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="213" count="0" type="stmt"/>
+      </file>
+      <file name="robots.ts" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/robots.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+      </file>
+      <file name="sitemap.ts" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/sitemap.ts">
+        <metrics statements="8" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.about">
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/about/page.tsx">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.blog">
+      <metrics statements="29" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="loading.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/blog/loading.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+      </file>
+      <file name="page.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/blog/page.tsx">
+        <metrics statements="27" coveredstatements="0" conditionals="19" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="197" count="0" type="stmt"/>
+        <line num="198" count="0" type="stmt"/>
+        <line num="199" count="0" type="stmt"/>
+        <line num="245" count="0" type="stmt"/>
+        <line num="257" count="0" type="stmt"/>
+        <line num="258" count="0" type="stmt"/>
+        <line num="259" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.blog.[slug]">
+      <metrics statements="26" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/blog/[slug]/page.tsx">
+        <metrics statements="26" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="73" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.blog.category.[category]">
+      <metrics statements="22" coveredstatements="0" conditionals="15" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="page.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/blog/category/[category]/page.tsx">
+        <metrics statements="22" coveredstatements="0" conditionals="15" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="app.rss.xml">
+      <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="route.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/app/rss.xml/route.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components">
+      <metrics statements="42" coveredstatements="7" conditionals="16" coveredconditionals="3" methods="12" coveredmethods="2"/>
+      <file name="mode-toggle.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/mode-toggle.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="scroll-to-top.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/scroll-to-top.tsx">
+        <metrics statements="16" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+      <file name="seo-json-ld.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/seo-json-ld.tsx">
+        <metrics statements="9" coveredstatements="7" conditionals="7" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="6" count="9" type="stmt"/>
+        <line num="7" count="9" type="stmt"/>
+        <line num="8" count="9" type="stmt"/>
+        <line num="12" count="9" type="cond" truecount="3" falsecount="2"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="74" count="3" type="stmt"/>
+        <line num="100" count="3" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+      </file>
+      <file name="structured-data.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/structured-data.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+      </file>
+      <file name="theme-provider.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/theme-provider.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.blog">
+      <metrics statements="35" coveredstatements="12" conditionals="17" coveredconditionals="1" methods="13" coveredmethods="2"/>
+      <file name="blog-content.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/blog/blog-content.tsx">
+        <metrics statements="9" coveredstatements="5" conditionals="10" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="68" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="blog-header.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/blog/blog-header.tsx">
+        <metrics statements="13" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="7" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+      </file>
+      <file name="newsletter-signup.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/blog/newsletter-signup.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+      <file name="related-posts.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/blog/related-posts.tsx">
+        <metrics statements="8" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ui">
+      <metrics statements="656" coveredstatements="24" conditionals="299" coveredconditionals="5" methods="298" coveredmethods="8"/>
+      <file name="accordion.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/accordion.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="alert-dialog.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/alert-dialog.tsx">
+        <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+      </file>
+      <file name="alert.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/alert.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="aspect-ratio.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/aspect-ratio.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="avatar.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/avatar.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+      </file>
+      <file name="badge.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/badge.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="35" count="6" type="cond" truecount="1" falsecount="1"/>
+        <line num="46" count="6" type="stmt"/>
+      </file>
+      <file name="breadcrumb.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/breadcrumb.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+      </file>
+      <file name="button.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/button.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="48" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="14" type="stmt"/>
+      </file>
+      <file name="calendar.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/calendar.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="139" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="145" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="181" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="185" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="213" count="0" type="stmt"/>
+      </file>
+      <file name="card.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/card.tsx">
+        <metrics statements="9" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="5"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="85" count="6" type="stmt"/>
+        <line num="86" count="6" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="6" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="6" type="stmt"/>
+        <line num="91" count="3" type="stmt"/>
+      </file>
+      <file name="carousel.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/carousel.tsx">
+        <metrics statements="47" coveredstatements="0" conditionals="28" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="80" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="92" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="97" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="210" count="0" type="stmt"/>
+        <line num="236" count="0" type="stmt"/>
+        <line num="237" count="0" type="stmt"/>
+        <line num="238" count="0" type="stmt"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+      </file>
+      <file name="chart.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/chart.tsx">
+        <metrics statements="60" coveredstatements="0" conditionals="88" coveredconditionals="0" methods="12" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="91" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="93" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="132" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="140" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="144" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="152" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="167" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="168" count="0" type="stmt"/>
+        <line num="171" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="183" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="185" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="187" count="0" type="stmt"/>
+        <line num="251" count="0" type="stmt"/>
+        <line num="264" count="0" type="stmt"/>
+        <line num="266" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="267" count="0" type="stmt"/>
+        <line num="279" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="280" count="0" type="stmt"/>
+        <line num="282" count="0" type="stmt"/>
+        <line num="313" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="314" count="0" type="stmt"/>
+        <line num="318" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="324" count="0" type="stmt"/>
+        <line num="326" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="330" count="0" type="stmt"/>
+        <line num="331" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="336" count="0" type="stmt"/>
+        <line num="341" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="347" count="0" type="stmt"/>
+        <line num="348" count="0" type="stmt"/>
+        <line num="349" count="0" type="stmt"/>
+        <line num="350" count="0" type="stmt"/>
+        <line num="351" count="0" type="stmt"/>
+        <line num="352" count="0" type="stmt"/>
+      </file>
+      <file name="checkbox.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/checkbox.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+      <file name="collapsible.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/collapsible.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+      <file name="command.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/command.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="178" count="0" type="stmt"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="181" count="0" type="stmt"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+      </file>
+      <file name="context-menu.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/context-menu.tsx">
+        <metrics statements="19" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="15" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="237" count="0" type="stmt"/>
+        <line num="238" count="0" type="stmt"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="240" count="0" type="stmt"/>
+        <line num="241" count="0" type="stmt"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="243" count="0" type="stmt"/>
+        <line num="244" count="0" type="stmt"/>
+        <line num="245" count="0" type="stmt"/>
+        <line num="246" count="0" type="stmt"/>
+        <line num="247" count="0" type="stmt"/>
+        <line num="248" count="0" type="stmt"/>
+        <line num="249" count="0" type="stmt"/>
+        <line num="250" count="0" type="stmt"/>
+        <line num="251" count="0" type="stmt"/>
+      </file>
+      <file name="dialog.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/dialog.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+      </file>
+      <file name="drawer.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/drawer.tsx">
+        <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+      </file>
+      <file name="dropdown-menu.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/dropdown-menu.tsx">
+        <metrics statements="19" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="15" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="243" count="0" type="stmt"/>
+        <line num="244" count="0" type="stmt"/>
+        <line num="245" count="0" type="stmt"/>
+        <line num="246" count="0" type="stmt"/>
+        <line num="247" count="0" type="stmt"/>
+        <line num="248" count="0" type="stmt"/>
+        <line num="249" count="0" type="stmt"/>
+        <line num="250" count="0" type="stmt"/>
+        <line num="251" count="0" type="stmt"/>
+        <line num="252" count="0" type="stmt"/>
+        <line num="253" count="0" type="stmt"/>
+        <line num="254" count="0" type="stmt"/>
+        <line num="255" count="0" type="stmt"/>
+        <line num="256" count="0" type="stmt"/>
+      </file>
+      <file name="form.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/form.tsx">
+        <metrics statements="35" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="140" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="142" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+      </file>
+      <file name="hover-card.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/hover-card.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+      </file>
+      <file name="input-otp.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/input-otp.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="77" count="0" type="stmt"/>
+      </file>
+      <file name="input.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/input.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+      </file>
+      <file name="label.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/label.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+      </file>
+      <file name="menubar.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/menubar.tsx">
+        <metrics statements="20" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="16" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="260" count="0" type="stmt"/>
+        <line num="261" count="0" type="stmt"/>
+        <line num="262" count="0" type="stmt"/>
+        <line num="263" count="0" type="stmt"/>
+        <line num="264" count="0" type="stmt"/>
+        <line num="265" count="0" type="stmt"/>
+        <line num="266" count="0" type="stmt"/>
+        <line num="267" count="0" type="stmt"/>
+        <line num="268" count="0" type="stmt"/>
+        <line num="269" count="0" type="stmt"/>
+        <line num="270" count="0" type="stmt"/>
+        <line num="271" count="0" type="stmt"/>
+        <line num="272" count="0" type="stmt"/>
+        <line num="273" count="0" type="stmt"/>
+        <line num="274" count="0" type="stmt"/>
+        <line num="275" count="0" type="stmt"/>
+      </file>
+      <file name="navigation-menu.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/navigation-menu.tsx">
+        <metrics statements="15" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="159" count="0" type="stmt"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="167" count="0" type="stmt"/>
+      </file>
+      <file name="pagination.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/pagination.tsx">
+        <metrics statements="11" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+      </file>
+      <file name="popover.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/popover.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+      </file>
+      <file name="progress.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/progress.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+      <file name="radio-group.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/radio-group.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+      </file>
+      <file name="resizable.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/resizable.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+      </file>
+      <file name="scroll-area.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/scroll-area.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="5" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+      </file>
+      <file name="select.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/select.tsx">
+        <metrics statements="14" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="178" count="0" type="stmt"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="181" count="0" type="stmt"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="183" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+      </file>
+      <file name="separator.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/separator.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+      <file name="sheet.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/sheet.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="9" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+      </file>
+      <file name="sidebar.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/sidebar.tsx">
+        <metrics statements="89" coveredstatements="0" conditionals="66" coveredconditionals="0" methods="34" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="49" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="75" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="93" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="99" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="114" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="168" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="183" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="261" count="0" type="stmt"/>
+        <line num="271" count="0" type="stmt"/>
+        <line num="272" count="0" type="stmt"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="401" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="422" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="476" count="0" type="stmt"/>
+        <line num="511" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="512" count="0" type="stmt"/>
+        <line num="525" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="526" count="0" type="stmt"/>
+        <line num="529" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="530" count="0" type="stmt"/>
+        <line num="557" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="610" count="0" type="stmt"/>
+        <line num="611" count="0" type="stmt"/>
+        <line num="680" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="702" count="0" type="stmt"/>
+        <line num="703" count="0" type="stmt"/>
+        <line num="704" count="0" type="stmt"/>
+        <line num="705" count="0" type="stmt"/>
+        <line num="706" count="0" type="stmt"/>
+        <line num="707" count="0" type="stmt"/>
+        <line num="708" count="0" type="stmt"/>
+        <line num="709" count="0" type="stmt"/>
+        <line num="710" count="0" type="stmt"/>
+        <line num="711" count="0" type="stmt"/>
+        <line num="712" count="0" type="stmt"/>
+        <line num="713" count="0" type="stmt"/>
+        <line num="714" count="0" type="stmt"/>
+        <line num="715" count="0" type="stmt"/>
+        <line num="716" count="0" type="stmt"/>
+        <line num="717" count="0" type="stmt"/>
+        <line num="718" count="0" type="stmt"/>
+        <line num="719" count="0" type="stmt"/>
+        <line num="720" count="0" type="stmt"/>
+        <line num="721" count="0" type="stmt"/>
+        <line num="722" count="0" type="stmt"/>
+        <line num="723" count="0" type="stmt"/>
+        <line num="724" count="0" type="stmt"/>
+        <line num="725" count="0" type="stmt"/>
+      </file>
+      <file name="skeleton.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/skeleton.tsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="slider.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/slider.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+      </file>
+      <file name="sonner.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/sonner.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+      <file name="switch.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/switch.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+      <file name="table.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/table.tsx">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+      </file>
+      <file name="tabs.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/tabs.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="textarea.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/textarea.tsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="toast.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/toast.tsx">
+        <metrics statements="21" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+      </file>
+      <file name="toaster.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/toaster.tsx">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="toggle-group.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/toggle-group.tsx">
+        <metrics statements="7" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+      </file>
+      <file name="toggle.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/toggle.tsx">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+      </file>
+      <file name="tooltip.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/tooltip.tsx">
+        <metrics statements="4" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+      </file>
+      <file name="use-mobile.tsx" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/use-mobile.tsx">
+        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+      <file name="use-toast.ts" path="/Users/ceo/e.ogugua.dev/ceowrites-EmmanuelBlogHub/components/ui/use-toast.ts">
+        <metrics statements="53" coveredstatements="0" conditionals="16" coveredconditionals="0" methods="18" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="89" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="109" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="119" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="137" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="162" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="167" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="177" count="0" type="stmt"/>
+        <line num="178" count="0" type="stmt"/>
+        <line num="179" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="181" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="187" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="194" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
