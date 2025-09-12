@@ -281,7 +281,7 @@ export default function AboutPage() {
                 className="hover:scale-105 transition-transform duration-200 bg-transparent"
                 asChild
               >
-                <a href="https://twitter.com/emmanuel" target="_blank" rel="noopener noreferrer">
+                <a href="https://twitter.com/emmachuka" target="_blank" rel="noopener noreferrer">
                   🐦 Twitter
                 </a>
               </Button>
@@ -290,7 +290,7 @@ export default function AboutPage() {
                 className="hover:scale-105 transition-transform duration-200 bg-transparent"
                 asChild
               >
-                <a href="https://linkedin.com/in/emmanuel" target="_blank" rel="noopener noreferrer">
+                <a href="https://linkedin.com/in/emmanuelogugua" target="_blank" rel="noopener noreferrer">
                   💼 LinkedIn
                 </a>
               </Button>
@@ -299,7 +299,7 @@ export default function AboutPage() {
                 className="hover:scale-105 transition-transform duration-200 bg-transparent"
                 asChild
               >
-                <a href="https://github.com/emmanuel" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/e-ogugua" target="_blank" rel="noopener noreferrer">
                   💻 GitHub
                 </a>
               </Button>

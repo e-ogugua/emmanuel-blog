@@ -1,6 +1,6 @@
 # Contributing to CEOWRITES Blog
 
-Thank you for considering contributing to the CEOWRITES blog! We appreciate your interest in helping us improve this project.
+Thank you for considering contributing to the CEOWRITES blog! We appreciate your interest in helping us improve this project. This guide will help you get started with contributing to our codebase.
 
 ## Table of Contents
 
@@ -47,7 +47,12 @@ This project and everyone participating in it is governed by our [Code of Conduc
    ```bash
    npm run dev
    ```
-5. Commit your changes following the commit message guidelines
+5. Run linting and type checking
+   ```bash
+   npm run lint
+   npm run type-check
+   ```
+6. Commit your changes following the commit message guidelines
 6. Push your changes to your fork
    ```bash
    git push origin feature/your-feature-name
@@ -56,27 +61,67 @@ This project and everyone participating in it is governed by our [Code of Conduc
 
 ## Code Style
 
-- Use TypeScript for all new code
-- Follow the [Next.js style guide](https://nextjs.org/docs/basic-features/eslint)
+- Use TypeScript for all new code with strict type checking
+- Follow the project's ESLint and Prettier configuration
+- Write meaningful variable and function names using camelCase
+- Use PascalCase for component names and interfaces
+- Keep functions small and focused on a single responsibility
+- Add JSDoc comments for public APIs and complex logic
+- Follow the existing code style and patterns in the codebase
 - Use functional components with TypeScript interfaces
-- Keep components small and focused on a single responsibility
-- Use meaningful variable and function names
-- Add comments to explain complex logic
-- Write tests for new components and features
+- Prefer async/await over Promise chains
+- Handle all errors appropriately
+- Write tests for new features and bug fixes
 
 ## Commit Message Guidelines
 
-We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification. Here are some examples:
+We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification for our commit messages. This allows us to automatically generate changelogs and determine semantic version numbers.
+
+### Format
+```
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+```
+
+### Types
+
+- `feat`: A new feature (triggers a MINOR version bump)
+- `fix`: A bug fix (triggers a PATCH version bump)
+- `docs`: Documentation only changes
+- `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `perf`: A code change that improves performance
+- `test`: Adding missing tests or correcting existing tests
+- `build`: Changes that affect the build system or external dependencies
+- `ci`: Changes to CI configuration files and scripts
+- `chore`: Other changes that don't modify src or test files
+- `revert`: Revert a previous commit
+
+### Examples
 
 ```
-feat: add new blog post component
-fix: resolve image loading issue in blog post
-docs: update README with setup instructions
-style: fix code style issues
-refactor: improve component structure
-test: add tests for blog utilities
+feat(blog): add related posts component
+fix(auth): handle expired refresh tokens
+docs: update README with new setup instructions
+style: format code with prettier
+refactor(utils): extract date formatting logic
+test: add unit tests for authentication
 chore: update dependencies
 ```
+
+### Commit Message Body
+
+- Use the imperative mood ("change" not "changed" nor "changes")
+- Include the motivation for the change and contrast with previous behavior
+- Reference any related issues or pull requests
+
+### Commit Message Footer
+
+- Reference related GitHub issues using `Closes #123` or `Fixes #123`
+- List any breaking changes with `BREAKING CHANGE:` followed by a description
 
 ## Pull Request Process
 

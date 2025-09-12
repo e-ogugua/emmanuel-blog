@@ -2,13 +2,16 @@ import { notFound } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import Link from "next/link"
-import Image from "next/image"
 import { BlogHeader } from "@/components/blog/blog-header"
-import { blogPosts } from "@/lib/blog-data"
+import { blogPosts, BlogPost } from "@/lib/blog-data"
 import { BlogContent } from "@/components/blog/blog-content"
 import { RelatedPosts } from "@/components/blog/related-posts"
 import { NewsletterSignup } from "@/components/blog/newsletter-signup"
 import { StructuredData } from "@/components/structured-data"
+import { Suspense } from "react"
+import { Skeleton } from "@/components/ui/skeleton"
+import { FeaturedImage } from "@/components/blog/featured-image"
+import { AuthorAvatar } from "@/components/blog/author-avatar"
 
 interface BlogPostPageProps {
   params: {
@@ -74,7 +77,9 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
     notFound()
   }
 
-  const relatedPosts = blogPosts.filter((p) => p.slug !== post.slug && p.category === post.category).slice(0, 3)
+  const relatedPosts: BlogPost[] = blogPosts
+    .filter((p): p is BlogPost => p.slug !== post.slug && p.category === post.category)
+    .slice(0, 3)
 
   return (
     <>
@@ -113,21 +118,10 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
 
               {/* Featured Image */}
               <div className="mb-10 rounded-xl overflow-hidden shadow-lg animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
-                <div className="relative w-full h-96 md:h-[500px]">
-                <Image
-                  src={post.imageUrl || "/blog-images/placeholder.svg"}
+                <FeaturedImage 
+                  src={post.imageUrl || "/blog-images/placeholder.svg"} 
                   alt={post.imageAlt || post.title}
-                  fill
-                  className="object-cover rounded-lg"
-                  sizes="(max-width: 768px) 100vw, 80vw"
-                  priority
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.onerror = null;
-                    target.src = "/blog-images/placeholder.svg";
-                  }}
                 />
-              </div>
               </div>
 
               <h1 className="text-4xl md:text-6xl font-serif font-bold mb-6 text-balance animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-200">
@@ -140,15 +134,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
 
               <div className="flex items-center justify-between animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-400">
                 <div className="flex items-center gap-4 group">
-                  <div className="w-16 h-16 bg-primary rounded-full overflow-hidden flex items-center justify-center group-hover:scale-110 transition-transform duration-200 ring-2 ring-primary/20">
-                    <Image
-                      src="/CEO.png"
-                      alt="Emmanuel"
-                      width={64}
-                      height={64}
-                      className="object-cover w-full h-full"
-                    />
-                  </div>
+                  <AuthorAvatar />
                   <div>
                     <p className="font-serif font-bold text-lg">Emmanuel</p>
                     <p className="text-sm text-muted-foreground">Tech Entrepreneur & Storyteller</p>
@@ -246,7 +232,7 @@ export default function BlogPostPage({ params }: BlogPostPageProps) {
         <NewsletterSignup />
 
         {/* Related Posts */}
-        <RelatedPosts posts={relatedPosts} />
+        <RelatedPosts posts={relatedPosts || []} />
       </div>
     </>
   )

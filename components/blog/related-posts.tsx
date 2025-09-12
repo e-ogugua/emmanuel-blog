@@ -3,16 +3,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
-
-interface BlogPost {
-  slug: string
-  title: string
-  excerpt: string
-  category: string
-  date: string
-  readTime: string
-  content: string
-}
+import { BlogPost } from "@/lib/blog-data"
 
 interface RelatedPostsProps {
   posts: BlogPost[]
