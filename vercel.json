@@ -3,10 +3,7 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/next",
-      "config": {
-        "distDir": ".next"
-      }
+      "use": "@vercel/next"
     }
   ],
   "routes": [
@@ -16,8 +13,8 @@
     }
   ],
   "framework": "nextjs",
-  "buildCommand": "npm run build",
-  "installCommand": "npm install",
-  "devCommand": "npm run dev",
+  "buildCommand": "./vercel-build.sh",
+  "installCommand": "echo 'Using custom build script for installation'",
+  "devCommand": "pnpm dev",
   "outputDirectory": ".next"
 }
