@@ -25,6 +25,7 @@ const lora = Lora({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://ceowrites-emmanuel-blog-hub.vercel.app'),
   title: {
     default: "CEOWRITES – Emmanuel's Blog",
     template: "%s | CEOWRITES",
