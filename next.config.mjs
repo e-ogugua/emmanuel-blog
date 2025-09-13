@@ -19,13 +19,21 @@ const nextConfig = {
 
   // ESLint configuration
   eslint: {
-    ignoreDuringBuilds: true, // <UPDATE> Added ESLint ignoreDuringBuilds setting
+    ignoreDuringBuilds: true,
   },
 
   // TypeScript configuration
   typescript: {
-    ignoreBuildErrors: true, // <UPDATE> Added TypeScript ignoreBuildErrors setting
+    ignoreBuildErrors: true,
   },
+
+  // CSS handling
+  experimental: {
+    optimizeCss: true,
+  },
+
+  // Production browser source maps
+  productionBrowserSourceMaps: true,
 
   webpack: (config, { dev, isServer }) => {
     // Optimize bundle size
