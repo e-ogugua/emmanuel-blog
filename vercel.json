@@ -3,18 +3,38 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/next"
+      "use": "@vercel/next",
+      "config": {
+        "distDir": ".next",
+        "includeFiles": [
+          "public/**/*",
+          "next.config.js",
+          "next.config.mjs"
+        ]
+      }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "/"
+      "src": "/_next/static/(?:[^/]+/pages|chunks|runtime|css|media)/.+",
+      "dest": "/_next/static/$1"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/favicon.ico"
+    },
+    {
+      "src": "/(.*?)",
+      "dest": "/$1"
     }
   ],
   "framework": "nextjs",
-  "buildCommand": "./vercel-build.sh",
-  "installCommand": "echo 'Using custom build script for installation'",
+  "buildCommand": "pnpm run build",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "devCommand": "pnpm dev",
   "outputDirectory": ".next"
 }

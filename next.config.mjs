@@ -35,22 +35,31 @@ const nextConfig = {
   // Production browser source maps
   productionBrowserSourceMaps: true,
 
-  webpack: (config, { dev, isServer }) => {
-    // Optimize bundle size
-    if (!dev && !isServer) {
-      config.optimization.splitChunks = {
-        chunks: 'all',
-        cacheGroups: {
-          vendor: {
-            test: /[\\/]node_modules[\\/]/,
-            name: 'vendors',
-            chunks: 'all',
-          },
-        },
-      }
-    }
-    return config
+  // Output
+  output: 'export',
+
+  // React strict mode
+  reactStrictMode: true,
+
+  // SWC minify
+  swcMinify: true,
+
+  // Compiler configuration
+  compiler: {
+    removeConsole: process.env.NODE_ENV === 'production',
   },
+
+  // Powered by header
+  poweredByHeader: false,
+
+  // Trailing slash
+  trailingSlash: true,
+
+  // Base path
+  basePath: '',
+
+  // Asset prefix
+  assetPrefix: process.env.NODE_ENV === 'production' ? 'https://ceowrites-emmanuel-blog-hub.vercel.app' : '',
 
   // Headers for performance and security
   async headers() {
@@ -69,6 +78,10 @@ const nextConfig = {
           {
             key: 'X-XSS-Protection',
             value: '1; mode=block',
+          },
+          {
+            key: 'Content-Security-Policy',
+            value: "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:;",
           },
           {
             key: 'Referrer-Policy',
